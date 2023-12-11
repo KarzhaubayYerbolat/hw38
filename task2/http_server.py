@@ -3,7 +3,7 @@ from response import Response
 import socketserver
 from controllers.pages import PagesController
 from router import Router
-
+from task2.static_responder import StaticResponder
 
 router = Router()
 router.get('/', PagesController, 'home')
